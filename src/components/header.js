@@ -2,11 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import { headerLogo } from "./styles"
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#fff`,
     }}
   >
     <div
@@ -17,10 +18,15 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
+        <img
+          alt="icon"
+          style={headerLogo}
+          src={require("../images/header/talismanwebs-icon.png")}
+        />
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#343434`,
             textDecoration: `none`,
           }}
         >
