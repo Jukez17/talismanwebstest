@@ -22,7 +22,7 @@ import {
   newsLetterStyle,
   h1,
   p,
-} from "./styles"
+} from "../styles/styles"
 
 const IndexPage = () => (
   <div style={mainStyle}>
