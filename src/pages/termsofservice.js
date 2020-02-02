@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { container, h1, h2, p } from "./terms/styles"
+import { container, h1, h2, p } from "../styles/terms-styles"
 
 const TermsOfService = () => {
   return (
